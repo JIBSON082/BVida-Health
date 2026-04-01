@@ -1,1 +1,28 @@
+@import "tailwindcss";
 
+@theme {
+  --color-bvida-blue: #003366;
+  --color-bvida-pink: #E75480;
+  --color-bvida-teal: #40E0D0;
+  --color-bvida-gray: #2D2D2D;
+  --color-bvida-offwhite: #F5F5F7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--color-bvida-gray);
+  background-color: #FFFFFF;
+}
+
+/* Hide scrollbar for horizontal scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
