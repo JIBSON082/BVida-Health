@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Philosophy from './components/Philosophy';
 import WellnessHub from './components/WellnessHub';
 import Testimonials from './components/Testimonials';
-import CommunityCTA from './components/CommunityCta';
+import CommunityCTA from './components/CommunityCTA';
 import Footer from './components/Footer';
 
 export default function App() {
